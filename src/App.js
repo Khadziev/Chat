@@ -1,9 +1,10 @@
 import './App.css';
+import Registr from "./pages/Registr";
 
 function App() {
   return (
     <div className="App">
-      <h1>SHAT</h1>
+      <Registr/>
     </div>
   );
 }
