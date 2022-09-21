@@ -1,7 +1,7 @@
 import React from 'react';
 import Add from '../img/add.png'
 
-function Registr(props) {
+function Register (props) {
     return (
         <div className="formContainer">
             <div className="formWrapper">
@@ -26,4 +26,4 @@ function Registr(props) {
     );
 }
 
-export default Registr;
+export default Register ;

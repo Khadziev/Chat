@@ -1,11 +1,12 @@
 
-import Registr from "./pages/Registr";
+import Register  from "./pages/Register";
 import './style.scss'
+import Login from "./pages/Login";
 
 function App() {
   return (
     <div >
-      <Registr/>
+      <Login />
     </div>
   );
 }
