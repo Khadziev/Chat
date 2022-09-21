@@ -14,7 +14,6 @@ function Chat() {
                     <img src= {Cam} alt='' />
                     <img src={Add} alt="" />
                     <img src={More} alt="" />
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDxl2Nf4fQtL3CxjKLKmZ4DfCKs-qPKONdXdOll4uSwg&s" alt=""/>
                 </div>
 
             </div>

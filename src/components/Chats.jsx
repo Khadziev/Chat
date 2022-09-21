@@ -1,6 +1,6 @@
 import React from "react";
 
-function Chats(props) {
+function Chats() {
   return (
     <div className="chats">
       <div className="userChat">
