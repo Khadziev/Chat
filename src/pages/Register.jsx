@@ -75,9 +75,9 @@ function Register() {
           </label>
           <button disabled={loading}>Войти</button>
           {loading && "Загрузка и сжатие изображения, пожалуйста, подождите..."}
-          {err && <span>Something went wrong</span>}
+          {err && <span>Что-то пошло не так</span>}
         </form>
-        <p>У вас есть аккаунт? Логин</p>
+        <p>У вас есть аккаунт? Логин</p>   <Link to="/register">Логин</Link>
       </div>
     </div>
   );
