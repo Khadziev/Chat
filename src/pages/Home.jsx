@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
 import Sidebar from "../components/Sidebar";
 import Chat from "../components/Chat";
 
 function Home(props) {
-    return (
-        <div className='home'>
-            <div className='container'>
-                <Sidebar/>
-                <Chat/>
-            </div>
-        </div>
-    );
+  return (
+    <div className="home">
+      <div className="container">
+        <Sidebar />
+        <Chat />
+      </div>
+    </div>
+  );
 }
 
 export default Home;

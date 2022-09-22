@@ -77,7 +77,7 @@ function Register() {
           {loading && "Загрузка и сжатие изображения, пожалуйста, подождите..."}
           {err && <span>Что-то пошло не так</span>}
         </form>
-        <p>У вас есть аккаунт? Логин</p>   <Link to="/register">Логин</Link>
+        <p>У вас есть аккаунт? Логин</p> <Link to="/register">Логин</Link>
       </div>
     </div>
   );
