@@ -11,7 +11,6 @@ function Login(props) {
     const email = e.target[0].value;
     const password = e.target[1].value;
 
-
     try {
       await signInWithEmailAndPassword(auth, email, password);
       navigate("/");
