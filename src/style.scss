@@ -32,14 +32,15 @@
 
     .logo {
       color: #5d5b8d;
-      font-weight: bold;
+      font-weight:lighter;
       font-size: 24px;
 
     }
 
     .title {
       color: #5d5b8d;
-      font-size: 12px;
+      font-size: 14px;
+      padding: 3px;
     }
 
     form {
@@ -73,7 +74,7 @@
         gap: 10px;
         color: #8da4f1;
         font-size: 12px;
-        cursor: pointer;
+
 
         img {
           width: 32px;
@@ -103,7 +104,6 @@
     width: 65%;
     height: 80%;
     display: flex;
-    overflow: hidden;
     @include tablet {
       width: 90%;
     }
@@ -138,7 +138,7 @@
           img {
             background-color: #ddddf7;
             height: 24px;
-            width: 24px;
+            width: 27px;
             border-radius: 50%;
             object-fit: cover;
           }
